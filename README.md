@@ -6,31 +6,31 @@ Easiest way for creating side menus CSS3 transitions
 Set up on your body the position
 
 **Left sidemenu**
-'''php
+```php
 <body class="sidemenu-left">
-''
+```
 **Right sidemenu**
-'''php
+```php
 <body class="sidemenu-right">
-''
+```
 
 After body
 **Side menu**
-'''php
+```php
 <div id="sidemenu">
 	...
 </div>
-'''
+```
 
 jQuery for toggle sidemenu
-'''php
+```php
 <script>
     $("#sidemenu-toggle").click(function(e) {
         e.preventDefault();
         $("body").toggleClass("toggle-sidemenu");
     });
 </script>
-'''
+```
 
 See example: [http://yasinkocak.github.io/fixed-sidemenu](http://yasinkocak.github.io/fixed-sidemenu)
 
