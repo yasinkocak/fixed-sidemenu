@@ -1,0 +1,38 @@
+body {
+    padding: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+body.sidemenu-right #sidemenu {
+    right: 250px;
+    margin-right: -250px;
+}
+body.sidemenu-left #sidemenu {
+    left: 250px;
+    margin-left: -250px;
+}
+body.sidemenu-left.toggle-sidemenu {
+    padding-left: 250px;
+}
+body.sidemenu-right.toggle-sidemenu {
+    padding-right: 250px;
+}
+body.sidemenu-left.toggle-sidemenu #sidemenu, body.sidemenu-right.toggle-sidemenu #sidemenu{
+    width: 250px;
+}
+#sidemenu {
+    z-index: 9999;
+    position: fixed;
+    height: 100%;
+    width: 0;
+    top: 0;
+    overflow-x: none;
+    overflow-y: auto;
+    background: #282828;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
