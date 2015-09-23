@@ -45,4 +45,4 @@ Pull requests are very welcome!
 
 Released under the MIT License [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
 
-Copyright © 2014 Yasin Kocak ([http://www.yasinkocak.com](http://www.yasinkocak.com))
+Copyright © 2015 Yasin Kocak ([http://yasin.kocak.io](http://yasin.kocak.io))
